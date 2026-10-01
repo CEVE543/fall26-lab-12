@@ -1,0 +1,30 @@
+---
+title: "Lab 12: Climate-informed generators"
+week: 13
+module: 3
+date: 2026-11-20
+due:
+  - label: "Lab 12 due"
+    date: 2026-11-30
+status: "placeholder"
+release: "public"
+---
+
+Fit and run the provided NHMM; turn the battery on its output and on CoSMoS.
+
+## Setup
+
+```{julia}
+#| solution: false
+#| output: false
+using Pkg
+lab_dir = dirname(@__FILE__)
+Pkg.activate(lab_dir)
+!isfile(joinpath(lab_dir, "Manifest.toml")) && Pkg.instantiate()
+```
+
+[TODO]
+
+## Exercises
+
+[TODO]
